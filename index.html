@@ -10,7 +10,7 @@
 
     <script>
         // Create a client instance
-        client = new Paho.MQTT.Client("91.228.196.219", 9001, "clientId-" + new Date().getTime());
+        client = new Paho.MQTT.Client("91.228.196.219", 1883, "clientId-" + new Date().getTime());
 
         // set callback handlers
         client.onConnectionLost = onConnectionLost;
